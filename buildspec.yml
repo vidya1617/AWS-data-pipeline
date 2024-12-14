@@ -6,17 +6,13 @@ phases:
       - echo Installing NGINX
       - sudo apt-get update
       - sudo apt-get install nginx -y
-
   build:
     commands:
       - echo Build started on 'date'
-      - echo Copying index.html to NGINX directory
       - sudo cp /templates/index.html /var/www/html/
-
   post_build:
     commands:
-      - echo Configuring and restarting NGINX
-      - sudo systemctl restart nginx
+      - echo Configuring NGINX
 
 artifacts:
   files:
