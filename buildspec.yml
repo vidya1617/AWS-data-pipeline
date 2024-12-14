@@ -9,7 +9,7 @@ phases:
   build:
     commands:
       - echo Build started on 'date'
-      - sudo cp var/www/html/templates/index.html /var/www/html/index.html
+      - sudo cp /var/www/html/templates/index.html /var/www/html/index.html
   post_build:
     commands:
       - echo Configuring NGINX
