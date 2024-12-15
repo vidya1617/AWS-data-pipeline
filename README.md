@@ -16,6 +16,9 @@ This project demonstrates a **CI/CD pipeline** using **AWS CodePipeline**, **AWS
 - **Version Control**: AWS CodeCommit (or GitHub)
 - **Build Tool**: AWS CodeBuild
 - **Deployment**: AWS CodeDeploy
+- **Tool**: Visual Studio Code
+- **Programming-Language**: Python
+- **Front-End**: HTML, CSS
 
 ## Setup and Installation:
 
