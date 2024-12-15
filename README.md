@@ -85,8 +85,6 @@ Here are some screenshots of the pipeline in action:
 
    ![EC2](Images/AWS-CodeDeploy-agent-Script-active.png)
 
-   ![EC2](Images/code deploy agent.txt)
-
 3. **CI/CD Pipeline**
    
    ![Codepipeline](Images/code-pipeline.png)
