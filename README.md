@@ -1,7 +1,7 @@
 # CI/CD Pipeline with AWS CodePipeline, CodeBuild, CodeDeploy, and EC2
 
 ## Project Description
-This project demonstrates a **CI/CD pipeline** using **AWS CodePipeline**, **AWS CodeBuild**, **AWS CodeDeploy**, and **EC2**. The pipeline automates the build, test, and deployment processes for your application. The pipeline will automatically handle artifact creation in S3, without manually creating the S3 bucket.
+This project demonstrates a **CI/CD pipeline** using **AWS CodePipeline**, **AWS CodeBuild**, **AWS CodeDeploy**, and **EC2**. The pipeline automates the build, test, and deployment processes for your application. The pipeline will automatically handle artifact creation in S3.
 
 ### Features:
 - **Automated Build**: Code changes are automatically built using AWS CodeBuild.
